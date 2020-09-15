@@ -1,0 +1,109 @@
+
+body {
+  overflow-y: hidden;
+  background-color: #F3F2EE;
+  font-family: 'Karla','Montserrat', sans-serif;
+}
+
+h1 {
+  position: absolute;
+    width: 285px;
+    height: 96px;
+    left: 269px;
+    top: 279px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #F3F2EE;
+}
+
+p.doel {
+    position: absolute;
+    width: 280px;
+    height: 15px;
+    left: 280px;
+    top: 358px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    
+    color: #F3F2EE;
+
+}
+
+a:hover {
+    transform: scale(0.8);
+  }
+
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background: #F3F2EE;
+}
+
+article > * { 
+  transition: all 1s;
+}
+
+
+article:target {
+  z-index: 1;
+}
+
+article > img {
+  position: fixed;
+    width: 458px;
+    left: 655px;
+    top: 76px;
+}
+
+
+.pijl {
+  color: #F3F2EE;
+  text-decoration: none;
+  padding: 1em;
+  position: absolute;
+  left: 23%;
+  right: 51.09%;
+  top: 60%;
+  bottom: 14.46%;
+  font-size: 40px;
+
+  font-family: Karla;
+}
+
+#vlak1 {
+    position: relative;
+    width: 488px;
+    height: 610px;
+    left: 167px;
+    top: 76px;
+    
+    background: #C3D2E6;
+    z-index: -1;
+}
+
+#vlak2 {
+    position: relative;
+    width: 488px;
+    height: 610px;
+    left: 167px;
+    top: 60px;
+    
+    background: #98BDAB;
+    z-index: -1;
+}
+
+    
+ 
